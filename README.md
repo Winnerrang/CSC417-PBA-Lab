@@ -12,6 +12,13 @@ https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/9baa8050-0cb9-4f10-
 
 
 
+Here is the 4th order Runge-Kutta algorithm that does not have either damping and exploding effect.
+
+
+https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/279bd0c1-aca2-4c38-aa5b-5689415681e1
+
+
+
 ## [Lab 2](https://github.com/Winnerrang/CSC417-3D-mass-spring/tree/cf402c040133689f67da7b601c8c097dee15f07c):
 In Lab 2, I utilized a 3-D mass-spring system to simulate deformable meshes. To formulate the equation of motion, I determined the potential energy, kinetic energy, and their derivative respect generalized coordinate and velocity of the system. For the time integration, I employed the linear implicit Euler method by constructing the stiffness gradient of the system.
 
