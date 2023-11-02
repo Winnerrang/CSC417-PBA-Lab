@@ -27,5 +27,6 @@ In Lab 2, I utilized a 3-D mass-spring system to simulate deformable meshes. To 
 https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/135a3b90-8a05-41e0-98ec-d5cc2594afff
 
 
+## [Lab3](https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88)
 
-
+Still Working On it
