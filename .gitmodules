@@ -1,3 +1,9 @@
 [submodule "1D-Mass-Spring"]
 	path = 1D-Mass-Spring
 	url = https://github.com/Winnerrang/1D-Mass-Spring.git
+[submodule "CSC417-3D-mass-spring"]
+	path = CSC417-3D-mass-spring
+	url = https://github.com/Winnerrang/CSC417-3D-mass-spring.git
+[submodule "CSC417-FEM-Deformable-Object"]
+	path = CSC417-FEM-Deformable-Object
+	url = https://github.com/Winnerrang/CSC417-FEM-Deformable-Object.git
