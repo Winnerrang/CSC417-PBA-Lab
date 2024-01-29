@@ -7,6 +7,3 @@
 [submodule "CSC417-FEM-Deformable-Object"]
 	path = CSC417-FEM-Deformable-Object
 	url = https://github.com/Winnerrang/CSC417-FEM-Deformable-Object.git
-[submodule "CSC417-FEM-Cloth-Simulation"]
-	path = CSC417-FEM-Cloth-Simulation
-	url = https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation.git
