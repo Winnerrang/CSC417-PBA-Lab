@@ -28,5 +28,33 @@ https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/135a3b90-8a05-41e0-
 
 
 ## [Lab3: Deformable Object Simulation using FEM](https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88)
+Note: The link will go to a different branch in my repository, make sure to change to master branch to see my code.
 
-Still Working On it
+In Lab 3, I employed the traditional Finite Element Method for simulating a deformable object. By dividing the mesh into numerous finite tetrahedra, I successfully calculated the individual energy, force, and stiffness matrix for each tetrahedron. Subsequently, I combined these to determine the total quantity for the entire object. 
+
+For the calculation of potential energy, I utilized the Neo-Hookean energy density formula, which necessitates the determination of the deformation gradient for each tetrahedron.
+
+In the process of integration, I utilized both the linear implicit method and the implicit method. With the linear implicit method, the operations proceed smoothly, provided there is minimal perturbation of the mesh. However, excessive perturbation can induce an enormous force, leading to the simulation becoming unstable.
+
+
+https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/20a95c93-fa58-4e04-98ad-9436ac90185e
+
+
+
+Things will get worse pretty quickly if your object's stiffness is high.
+
+
+
+https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/19fd14e8-5007-4acb-8525-ce8618bdcca9
+
+
+In the implicit integration process, an energy cost function is defined and optimized using the Newton method to determine the velocity for the next frame. The line search technique is utilized in the Newton method to avoid an increase in energy. An additional comparison is required between the new and old energy levels to ascertain if the new energy is better, which includes checking if the new energy is 'nan.'
+
+This is especially important as high velocities can lead to an inverted (reflected) tetrahedron, resulting in a negative determinant of the deformation gradient and ultimately leading to 'nan' energy. This scenario may occur during the optimization of energy in the Newton method, necessitating careful handling.
+
+
+
+https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/8ec82e97-7cec-4e68-9214-389573aaafe6
+
+
+
