@@ -57,4 +57,5 @@ This is especially important as high velocities can lead to an inverted (reflect
 https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/8ec82e97-7cec-4e68-9214-389573aaafe6
 
 
-
+## [Lab3: Cloth Simulation using FEM]([https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88](https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)
+Still working on it!
