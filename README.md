@@ -27,7 +27,7 @@ In Lab 2, I utilized a 3-D mass-spring system to simulate deformable meshes. To 
 https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/135a3b90-8a05-41e0-98ec-d5cc2594afff
 
 
-## [Lab3: Deformable Object Simulation using FEM](https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88)
+## [Lab 3: Deformable Object Simulation using FEM](https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88)
 Note: The link will go to a different branch in my repository, make sure to change to master branch to see my code.
 
 In Lab 3, I employed the traditional Finite Element Method for simulating a deformable object. By dividing the mesh into numerous finite tetrahedra, I successfully calculated the individual energy, force, and stiffness matrix for each tetrahedron. Subsequently, I combined these to determine the total quantity for the entire object. 
@@ -57,5 +57,5 @@ This is especially important as high velocities can lead to an inverted (reflect
 https://github.com/Winnerrang/CSC417-PBA-Lab/assets/83567556/8ec82e97-7cec-4e68-9214-389573aaafe6
 
 
-## [Lab3: Cloth Simulation using FEM]([https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88](https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)
+## [Lab 4: Cloth Simulation using FEM]([https://github.com/Winnerrang/CSC417-FEM-Deformable-Object/tree/25a62624c6bb68df1c11d2d3d1ad13fd7c173b88](https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)https://github.com/Winnerrang/CSC417-FEM-Cloth-Simulation)
 Still working on it!
